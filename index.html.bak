@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css learning</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet"  href="./contact.html">
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<header>
+		<nav id="navigation">
+				<div id="logo">
+					<img src="./img/logofinal.png" alt="logo">
+				</div>
+			<div class="top-menu">			
+					<li>
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="portfolio.html">Portfolio</a>
+						<a href="contact.html">Contact Us</a>					
+					</li>
+			</div>
+		</nav>
+		<h1 id="intro-h1">Hello,<br> I'm Poonam</h1>			
+		<button class="btn-download"><a href="/img/frontend_CV.png" download>Porfolio</a></button>
+
+
+	</header>
+
+	<div id="myself">
+		<h2>I'm Web designer, 3 months self learned designer.<br>
+			6 months experience in photoshop <a href="portfolio.html">Photoshop Designs</a> I have also basic knowladge
+		<br>of Programming language like(C, C++, PHP, Javascript).<br>
+		I have 3 months experience as intern full stack developer 
+		</h2>
+	</div>
+
+<!-- ----------------SECTION HERO STARTED---------------------------------- -->
+ 	<!--- <section id="hero">
+		<h2>Skills</h2>
+		<h3>Photoshop || Canva || Web development</h3>
+		<div class="portfolio">
+			 <img src="./img/office.jpg" alt="office photo">	 			
+		</div>
+	
+	</section>   -->
+<!-- ----------------SECTION HERO STARTED---------------------------------- -->
+<!-- <section id="about">
+	<div class="about-form">
+		<form action="" class="contact-form">
+			
+		<input type="text" id="fname" name="Firstname" placeholder="your name">
+
+		<input type="mailto:" name="email" id="email" placeholder="your email" >
+
+		<input type="tel" name="phone" id="phone" placeholder="you phone number">
+
+		<input type="submit" name="submit" value="submit">
+
+		<textarea placeholder="message">Type....... </textarea>
+		</form>		
+	</div>
+	
+</section> -->
+</body>
+<footer id="footer">
+	<div class="footer-container">
+		<div class="col-1">
+			<h2>Logo</h2>
+					<p>Lorem It is a established <br>fact that content of a page <br>looking at its layout.is that<br> it has a more-or-less normal<br>letters, as opposed to <br> here, content here', making <br>desktop publishing packages<br> now use Lorem<br> Ipsum  default model text.</p>
+		</div>
+
+		<div class="col-2">
+			<h2>Important <br> Links</h2>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact </a>						
+				</li>
+			</ul>
+		</div>		
+
+		<div class="col-3">
+			<h2>Contact <br> Info</h2>
+			<ul>
+				<li>
+					<a href="mailto:poonambharara87@gmail.com">poonambharara87</a>
+					<a href="#">1234567821</a>
+					<a href="#">Zirakpur, Punjab</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="col-4">
+			<h2>Social <br> Links</h2>
+			<ul>
+				<li>
+					<a href="https://www.behance.net/poonambhar86e9">Behance</a>
+					<a href="https://dribbble.com/Poonam87">Dribbble</a>
+					<a href="#">Facebook</a>
+					<a href="#">Instagram</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+</html>

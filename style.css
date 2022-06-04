@@ -1,0 +1,499 @@
+*{
+	font-family: sans-serif;
+
+	margin: 0px;
+	padding: 0px;
+
+	font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+	background-image: url('background-img.jpg');
+	background-repeat: no-repeat;
+	background-attachment: local;
+	min-height: 100vh;
+	width: 100%;
+	object-fit: center right;
+	background-size: 100% 100%;
+}
+
+.myLinks{
+	display: flex;
+    flex-direction: row;
+    background-color: #363333;
+    opacity: 0.8;
+    min-width: 100vw;
+    max-height: 70px;
+    justify-content: center;
+    position: fixed;
+}
+
+.myLinks a{
+    transition: 0.7s ease;
+	text-align: center;
+    display: block;
+    padding: 18px 32px;
+    font-size: 21px;
+    color: #c7c7bb;
+}
+
+.myLinks a:hover{
+    color: white;
+}
+.PortCont{
+	position: relative;
+}
+.btn-download{
+	border: 4px solid green;
+	padding: 1px 30px 1px 30px;
+	position: absolute;
+	top: 400px;
+	left: 67%;
+}
+.btn-download a{
+	color: green;
+	font-size: 30px;
+}
+#intro-h1{
+	font-size: 50px;
+	font-weight: 900;
+	text-align: right;
+	margin:0px;
+	margin-bottom: 1;
+	color: #363333;
+	position: absolute;
+	top: 170px;
+	right:20%;
+}
+
+#myself{
+	height: 100vh;
+	width: 100vw;
+	background-color: lightgreen;
+}
+#myself h2{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 110px;
+    line-height: ;
+    color: #363333;
+    justify-content: center;
+}
+
+#about .about-form {
+    width: 100%;
+    display: flex;
+    background-color: #18054d;
+    margin-bottom: 80px;
+    justify-content: center;
+    height: 500px;
+}
+ .heading-contact-us{
+	font-family: montserrat;
+	color: #f2eaea;
+	background-color: #18054d;
+	padding-left: 542px;
+	padding-top: 50px;
+	font-size: 30px;
+}
+#about .about-form input[type=text], [type=tel], [type="mailto:"], textarea{
+	width: 70%;
+	justify-content: center;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+	padding: 15px 15px;
+	margin: 10px 0px;
+	margin-top: 10px;
+	margin-top: 10px;
+	font-weight: 700;
+	color: #171717;
+	}
+#about .about-form .contact-form:first-child{
+    margin-top: 60px;
+    margin-left: 245px;
+}	
+
+#about .about-form input[type=submit]{
+	padding: 15px 39px;
+	margin-left: 32%;
+	margin-top: 22px;
+	font-size: large;
+	font-family: sans-serif;
+	font-weight: normal;
+	background-color: green;
+	border: 1px solid #008000;
+	color: white;
+	border-radius: 4px;
+}
+
+/*---------------------------NEW CHANGES START---------------*/
+#sec2{
+	min-height: 60vh;
+	max-width: 100vw;
+	display: flex;
+	flex-direction: row;
+	background-color: #d5bea9;
+}
+
+#sec2 .myphoto{
+	min-height: 280px;
+	max-height: 320px;
+	min-width: 320px;
+	max-width: 700px;
+	margin: 50px;
+	border-radius: 5px;
+}
+#sec2 p{
+	padding-top: 90px;
+	text-align: left;
+	font-size: 18px;
+	min-width: 320px;
+	max-width:700px;
+	width: 85%;
+	color:#1e1d1d;
+}
+
+#Cards{
+	display: flex;
+	flex-direction: row;
+	min-height: auto;
+	width: 100vw;
+	background-color: #d5bea9;
+	justify-content: center;
+}
+
+#Cards .skills{
+	height: 320px;
+	width: 280px;
+	background-color: lightblue;
+	margin-left: 80px;
+	margin-top: 80px;
+	border-radius: 4px;
+	box-shadow: 15px 12px 13px black;
+}
+
+.skills{
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+}
+.skillPhoto{
+    height: 100px;
+    width: 100px;
+    margin: 30px 30px 15px 30px;
+    text-align: center;
+    margin-left: 85px;
+}
+.firstSkill{
+	margin-left: 95px;
+}
+.skillh2{
+	font-size: 21px;
+	text-align: center;
+	font-weight: 500;
+}
+.skillTxt{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding:15px;
+	color:#1e1d1d;
+}
+
+#sec-3{
+	font-size: 41px;
+	color:skyblue;
+	text-align: center;
+}
+
+/*----------ABOUT HEADING----------------*/
+.about-h1{
+	text-align: center;
+	font-size: 41px; 
+	font-weight: bold;
+	color:skyblue;
+	margin-top:100px; 
+}
+
+/*---------------------NEW CHANGES ENDS-------------------*/
+
+/*----------------------  ABOUT PAGE STARTS-----------------------------------------------------*/
+#about-container{justify-content: center;}
+
+.about-heading{
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	font-size: 74px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #18054d;
+	color: white;
+}
+#about-container .column1{
+	background-color: #18054D;
+	height: 600px;
+	width: 100%;
+	padding: 20px;
+}
+#about-container .column1 p{
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 80px 70px 70px 70px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.5;
+}
+#about-container .column1 h2{
+	color: white;
+	font-family: Montserrat, sans-serif;
+}
+#about-container .column2{
+	height: 600px;
+	width: 100%;
+}
+
+#about-container .column2 h2{
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	font-size: 56px;
+	padding: 40px;
+	margin-bottom: 75px;
+	margin-top: 25px;
+}
+
+.second-container{
+	display: flex;
+	margin-top: 70px;
+	height: 500;
+	width: 100%;
+	margin-bottom: 0px;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.second-container .column-1{
+	background-color: #18054d;
+	text-align: center;
+	width: 50%;
+	height: 360px;
+	margin-top: 50px;
+	margin-right: 20px;
+	padding-top: 50px;
+	padding-top: 140px;
+}
+
+.second-container .column-2{
+    flex-direction: column;
+    background-color: #0096dc;
+    text-align: center;
+    width: 50%;
+    height: 380px;
+    margin-top: 50px;
+    padding-top: 120px;
+}
+
+ .experience{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 108px;
+}
+
+.second-container  p{
+	margin: 10px;
+	padding: 20px;
+	color: white;
+	font-weight: 500;
+	font-size: 35px;
+	padding: 33px;
+	font-family: roboto Condensed;
+}
+#icons{
+	display: flex;
+	height: 300px;
+	width: 100%;
+/*	background-color: pink;*/
+	justify-content: center;
+}
+
+#icons .html-box{
+	width: 25%;
+	height:fit-content;
+	margin-right: 10px;
+}
+
+#icons .css-box{
+	width: 25%;
+	height: fit-content;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#icons .photoshop-box{
+	width: 25%;
+	height: fit-content;
+	margin-left: 10px;
+}
+/*----------------------  ABOUT PAGE ENDS-----------------------------------------------------*/
+
+/*----------------------PORTFOLIO PAGE STARTS-----------------------------------------------------*/
+
+.responsive{
+	width: 24.999%;
+	padding: 0 6px;
+	    padding-left: 6px;
+	float: left;
+	padding-left: 0px;
+	margin-left: 70px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.responsive .gallary{
+}
+
+.responsive .gallary:hover {
+	background-color: #EBCA2A;
+
+}
+.responsive .gallary img{
+	background-color: lightblue;
+	height: auto;
+	width: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.responsive .gallary .desc{
+	text-align: center;
+}
+
+
+.responsive1{
+	height: 600px;
+	width: 100%;
+}
+
+.Banner-Creatives{
+	font-size: 40px;
+	color: black;
+	padding-left: 433px;
+	padding-top: 50px;
+}
+
+/*----------------------PORTFOLIO PAGE ENDS-----------------------------------------------------*/
+.hamburger{
+	display: none;
+}
+
+.bar{
+	display: block;
+	width: 50px;
+	height: 5px;
+	margin: 10px auto;
+	-webkit-transition: all 0.3 ease-in-out;
+	transition: all 0.3 ease-in-out;
+	background-color: #262626;
+	}
+
+@media(min-width:400px) and (max-width:900px){
+	.myLinks{
+			display: none;
+		    flex-direction: column;
+		    background-color: #363333;
+		    opacity: 0.8;
+		    width: 60%;
+		    justify-content: center;
+		    position: fixed;
+		    top: 180px;
+	}
+
+	.myLinks a{
+		background-color:#222222;
+		border-bottom: 1px solid white;
+		padding: 15px 30px;
+		text-align: center;
+	}
+
+	.myLinks a:hover{
+		background-color: #7e7e7b;
+		border-bottom: 1px solid white;
+		padding: 15px 30px;
+	}
+	.hamburger{
+			display: block;
+			position: absolute;
+			left: 40px;
+			top:10px;
+		}
+
+	.about-h1{
+		margin: 0px 20px 0px 20px;
+	}
+
+	#sec2 {
+    min-height: 400px;
+    max-width: 768px
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #d5bea9;
+    padding: 0 10px 0px 10px;
+    justify-content: center;
+}
+	#sec2 .myphoto{
+		min-height: 320px;
+		max-height: 768px;
+		min-width: 400px;
+		max-width: 768px;
+		margin: 30px 0px 30px 0px;
+		border-radius: 5px;
+			}
+	#sec2 p{
+		font-size: 16px;
+		line-height: 24px;
+		padding: 0px 20px 0px 60px;
+		min-width: 320px;
+		max-width: 700px;
+		margin-bottom: 40px;
+	}
+
+	.btn-download{
+	border: 4px solid green;
+	padding: 1px 30px 1px 30px;
+	position: absolute;
+	top: 170px;
+	left: 55%;
+	}
+
+	#Cards{
+		display: flex;
+		flex-direction: column;
+		border-radius: 4px;
+		box-shadow: 7px 6px 7px black;
+		min-width: 700px;
+		background-color: #d5bea9;
+	}
+	#Cards .skills{
+	min-height: 320px;
+	max-height: 500px;
+	min-width: 320px;
+	max-width: 768px;
+	background-color: skyblue;
+	margin-left: 80px;
+	margin-top: 80px;
+	border-radius: 4px;
+	box-shadow: 15px 12px 13px black;
+	display: inline-block;
+}
+}

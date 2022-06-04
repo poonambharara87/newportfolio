@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css learning</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet"  href="contact.html">
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<header>
+		<nav id="navigation">
+			<div class="top-menu">			
+					<li class="myLinks">
+						<a href="index.html">Home</a>
+						<a href="#sec2">About</a>
+						<a href="portfolio.html">Portfolio</a>
+						<!-- <a href="contact.html">Contact Us</a> -->					
+					</li>
+			</div>
+			<div class="hamburger" onclick="openNav()">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</nav>
+		<div class="PortCont">
+		<!-- <h1 id="intro-h1">Hello,<br> I'm Poonam</h1> -->			
+		<button class="btn-download"><a href="frontend_CV.png" download>Porfolio</a></button>	
+		</div>
+	</header>
+
+	<a href="#sec2"></a>
+	<h1 class="about-h1">About me</h1>
+	<div id="sec2">
+
+		<img class="myphoto" src="https://images.unsplash.com/photo-1644982647711-9129d2ed7ceb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+		<div>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence 	
+			</p>
+		</div>
+
+	</div>
+	<h1 class="about-h1">Why Should hire me ?</h1>
+	<div id="Cards">
+		<div class="skills">
+			<img class="skillPhoto firstSkill" src="coding.png">
+			<h2 class="skillh2">Web Design</h2>
+			<p class="skillTxt" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+		</div>
+
+		<div class="skills">
+			<img class="skillPhoto" src="animation.png">
+			<h2 class="skillh2">CSS and Javascript Animation</h2>
+			<p  class="skillTxt">Lorem Ipsum printing and typesetting industry. Lorem Ipsum has been the since the 1500s</p>		
+		</div>
+
+		<div class="skills">
+			<img class="skillPhoto" src="sketch.png">
+			<h2 class="skillh2">Graphic Design</h2>
+			<p class="skillTxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+	
+		function openNav(){
+			var nav = document.querySelector(".myLinks");
+
+			if(nav.style.display === "flex"){
+				nav.style.display = "none"
+			}else{
+				nav.style.display = "flex"
+			}
+		}
+	
+
+	
+	
+	</script>
+
+</body>
+
+</html>
